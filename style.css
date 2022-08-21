@@ -26,7 +26,7 @@ mark {
 		text-align: center;
 		height: 30px;
 		width: 100px;
-		display: block;
+		display: circle;
 		font-size: 2em;
 		background: #FFFFFF;
 	}
@@ -60,6 +60,13 @@ mark {
 			transform: translateX(0px) rotate(0deg);
 		}
 	}
+h1 {
+  text-shadow: 0 0 10px #FF0000, 0 0 10px #0000FF;
+}
+
+div {
+  line-height: 1px;
+}
 
 {
 target-new: tab;
