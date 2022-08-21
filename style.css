@@ -8,3 +8,64 @@ mark {
   background-color: red;
   color: lime;
 }
+
+
+	body {
+		margin: 0;
+		padding: 0;
+	}
+
+	div {
+		position: relative;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	#btn {
+		text-align: center;
+		height: 30px;
+		width: 100px;
+		display: block;
+		font-size: 2em;
+		background: #FFFFFF;
+	}
+
+	#btn:hover {
+		animation: effect 0.75s infinite;
+	}
+
+	@keyframes effect {
+		0% {
+			transform: translateX(0px) rotate(0deg);
+		}
+
+		20% {
+			transform: translateX(-4px) rotate(-4deg);
+		}
+
+		40% {
+			transform: translateX(-2px) rotate(-2deg);
+		}
+
+		60% {
+			transform: translateX(3.5px) rotate(4deg);
+		}
+
+		80% {
+			transform: translateX(2px) rotate(2deg);
+		}
+
+		100% {
+			transform: translateX(0px) rotate(0deg);
+		}
+	}
+
+{
+target-new: tab;
+}
+
+input[type='button']
+{
+    margin:10px 10px 10px 10px; //just an example, you can add according to your need
+}
