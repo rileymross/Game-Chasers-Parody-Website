@@ -24,10 +24,10 @@ mark {
 
 	#btn {
 		text-align: center;
-		height: 30px;
-		width: 100px;
+		height: 60px;
+		width: 180px;
 		display: circle;
-		font-size: 2em;
+		font-size: 3em;
 		background: #FFFFFF;
 	}
 
@@ -61,7 +61,7 @@ mark {
 		}
 	}
 h1 {
-  text-shadow: 0 0 10px #FF0000, 0 0 10px #0000FF;
+  text-shadow: 0 0 11px #FF0000, 0 0 11px #0000FF;
 }
 
 div {
